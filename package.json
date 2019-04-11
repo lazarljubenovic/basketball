@@ -1,0 +1,28 @@
+{
+  "name": "basketball",
+  "version": "0.0.1",
+  "description": "A simple game.",
+  "main": "dist/bundle.js",
+  "repository": "https://github.com/lazarljubenovic/basketball",
+  "author": "lazarljubenovic <lazar.ljubenovic.1995@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "rollup": "^1.9.3",
+    "rollup-plugin-copy": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.2.2",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "servor": "^2.0.3",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "fpop": "^0.1.3",
+    "planimetry": "^0.0.13"
+  }
+}

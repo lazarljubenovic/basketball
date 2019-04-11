@@ -1,0 +1,4 @@
+/.idea/
+/node_modules/
+# /dist/ we need it to in order to publish to gh pages
+/.rpt2_cache
